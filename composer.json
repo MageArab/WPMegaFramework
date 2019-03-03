@@ -1,0 +1,20 @@
+{
+  "name": "magearab/mega-framework",
+  "license": "MIT",
+  "description": "Doesn't do a great deal!",
+  "type": "wordpress-plugin",
+  "authors": [
+    {
+      "name": "Hady Fayed",
+      "email": "hadyfayed@gmail.com"
+    }
+  ],
+  "require": {
+  },
+  "autoload": {
+    "psr-4": {
+      "MageArab\\": "src/"
+    }
+  },
+  "minimum-stability": "stable"
+}
